@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pytest-html = "*"
+hypothesis = "*"
+flake8 = "*"
+pipenv-setup = "*"
+twine = "*"
+
+[packages]
+pygame = "*"
+tox = "*"
+
+[requires]
+python_version = "3.8"
