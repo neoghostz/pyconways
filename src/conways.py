@@ -14,8 +14,8 @@ class Conway():
         self.logger = logging.getLogger("ConwaysGame")
         self.logger.setLevel(int(os.environ.get("Logging", logging.DEBUG)))
         self.caption = "Conways Game of Life"
-        self.game = Penta()
-        self.fps = 1
+        self.game = Pulsar()
+        self.fps = 10
         self.clock = pygame.time.Clock()
         self.run_state = True
         self.game_screen()
